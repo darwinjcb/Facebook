@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Definición de la clase llamada 'header-left': */
+
+.header-left {
+    /* Esta clase se utiliza especificamente para definir los elemetos del lazo izquierdo del encabezado (header-left) */
+    display: flex;
+    align-items: center;
+}
+
+/* Definición de la clase llamada 'profile-pic': */
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Definición de la clase llamada 'status-input': */
+.status-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f2f5;
+    width: 100%;
+}
+
+/* Definición de la clase llamada 'header-right': */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Definición de la clase llamada 'header-btn': */
+.header-btn {
+    background: none;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Definición de la clase llamada 'header-btn': */
+.header-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+.stories {
+    display: flex;
+    overflow-x: scroll;
+    padding: 15px 0;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.story {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.story-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100px;
+    background-color: #e4e6eb;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.story-pic {
+    width: 60px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.story-name {
+    margin: 5px 0 0;
+    font-size: 12px;
+}
+
+/* Definición de la clase llamada '.post': */
+.post {
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+/* Definición de la clase llamada 'post-header': */
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+/* Definición de la clase llamada 'post-profile-pic': */
+.post-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Definición de la clase llamada 'post-info': */
+.post-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Definición de la clase llamada 'post-name': */
+.post-name {
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Definición de la clase llamada 'post-time': */
+.post-time {
+    font-size: 12px;
+    color: #606770;
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.footer-icon img {
+    width: 24px;
+    height: 24px;
+}

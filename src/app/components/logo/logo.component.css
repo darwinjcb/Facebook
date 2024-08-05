@@ -1,0 +1,16 @@
+/* Definición de la clase llamada 'facebook-logo' */
+.facebook-logo {
+    /* Propiedades */
+    font-size: 35px; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente (negrita) */
+    color: #1877f2; /* Color del texto */
+ 
+    /* Color del logo de Facebook */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-left: 10px; /* Margen a la izquierda */
+}
+
+/* Clase llamada 'facebook-logo' */
+.facebook-logo span {
+    text-transform: lowercase;
+}
